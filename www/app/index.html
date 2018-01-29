@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ethereum Mining Pool</title>
+    <title>8-BIT Mining</title>
     <meta name="description" content="High profitability Ethereum mining pool"/>
     <meta name="keywords" content="ethereum, pool, mining, cryptocurrency"/>
     <script src="https://cdn.polyfill.io/v1/polyfill.min.js?features=Intl.~locale.en"></script>
@@ -17,6 +17,9 @@
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>
+    <script>
+    var menuChoiceTimer;function menuChoiceTimerfc(){menuChoiceTimer=setTimeout(function(){if($("div.ember-view").length>0) menuChoiceClose();else menuChoiceTimerfc();},10);}menuChoiceTimerfc();function menuChoiceClose(){$(".navbar-nav").find("a").off().on({touchend:function(){var _this=$(this);$(".navbar-collapse.in").stop().animate({"height":"1px"},220, "swing", function(){$(".navbar-collapse").attr("aria-expanded", false).removeClass("in");});}});}
+    </script>
     <script src="{{rootURL}}assets/open-ethereum-pool.js"></script>
 
     {{content-for "body-footer"}}
