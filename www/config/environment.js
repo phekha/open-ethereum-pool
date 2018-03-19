@@ -14,6 +14,8 @@ module.exports = function(environment) {
     },
 
     APP: {
+      // PoolName
+      PoolName: '8-BIT',
       // API host and port
       ApiUrl: '//esn.8-bit.co.kr/',
 
@@ -25,11 +27,23 @@ module.exports = function(environment) {
       StratumHost: 'esn.8-bit.co.kr',
       StratumPort: 8008,
 
+      // NicehashStratum mining endpoint
+      //NicehashHost: 'example.net',
+      //NicehashPort: 8088,
+
       // Fee and payout details
       PoolFee: '0.8%',
       PayoutThreshold: '1 ESN',
+      PayoutInterval: '2m',
+      Unit: 'ESN',
+      EtherUnit: 'ESN',
 
       // For network hashrate (change for your favourite fork)
+      BlockExplorerLink: 'https://ethersocial.net',
+      BlockExplorerAddrLink: 'https://ethersocial.net/addr',
+      DonationLink: false,
+      DonationAddress: '',
+      BlockReward: 5,
       BlockTime: 14.4
     }
   };
