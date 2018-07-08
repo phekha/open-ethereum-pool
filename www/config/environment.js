@@ -32,9 +32,9 @@ module.exports = function(environment) {
       //NicehashPort: 8088,
 
       // Fee and payout details
-      PoolFee: '0.8%',
+      PoolFee: '0.5%',
       PayoutThreshold: '1 ESN',
-      PayoutInterval: '2m',
+      PayoutInterval: '30m',
       Unit: 'ESN',
       EtherUnit: 'ESN',
 

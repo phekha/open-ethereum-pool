@@ -11,7 +11,7 @@
 		"behindReverseProxy": false,
 		"blockRefreshInterval": "120ms",
 		"stateUpdateInterval": "3s",
-		"difficulty": 100000000,
+		"difficulty": 450000000,
 		"hashrateExpiration": "3h",
 
 		"healthCheck": true,
@@ -55,7 +55,7 @@
 		"hashrateWindow": "30m",
 		"hashrateLargeWindow": "3h",
 		"luckWindow": [64, 128, 256],
-		"payments": 30,
+		"payments": 50,
 		"blocks": 50,
 		"poolCharts":"0 */20 * * * *",
 		"poolChartsNum":74,
@@ -86,11 +86,11 @@
 
 	"unlocker": {
 		"enabled": true,
-		"poolFee": 0.8,
+		"poolFee": 0.5,
 		"poolFeeAddress": "",
 		"donate": false,
-		"donateFee": 10.0,
-		"donateAddress": "0x8b92c50e1c39466f900a578edb20a49356c4fe24",
+		"donateFee": 1.0,
+		"donateAddress": "0x6982e32d8c87aaa0c6ec5ce081ec170cd7808468",
 		"depth": 120,
 		"immatureDepth": 20,
 		"keepTxFees": false,
@@ -102,14 +102,14 @@
 	"payouts": {
 		"enabled": true,
 		"requirePeers": 1,
-		"interval": "2m",
+		"interval": "30m",
 		"daemon": "http://127.0.0.1:8545",
 		"timeout": "10s",
-		"address": "0x0",
+		"address": "0xfb630243f8c9a141fd96b8ad9250bf999be76d4e",
 		"gas": "21000",
-		"gasPrice": "100000000000",
+		"gasPrice": "10000000000",
 		"autoGas": true,
-		"threshold": 10000000000,
+		"threshold": 1000000000,
 		"bgsave": false
 	},
 
