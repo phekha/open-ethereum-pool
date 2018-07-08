@@ -39,7 +39,6 @@ home:
 
   button:
     lookup: Lookup
-
   help:
     minimal: help-minimal
 
@@ -53,6 +52,7 @@ account:
   current: Current Payment
   last_share_submitted: Last Share Submitted
   online: Workers Online
+  offline: offline
   hashrate: Hashrate
   earnings:
     perday: Earnings per day
